@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "56DBFDB1-A275-41DD-B39E-A497D645F5A3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79E3B650-2882-4F9F-86C9-CE82B6BF80BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Horoscopes/DetailedVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getHoroscope()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90CC59CD-DCB8-499D-9D9E-B25E8CBAA189"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Horoscopes/DetailedVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getHoroscope()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "90CC59CD-DCB8-499D-9D9E-B25E8CBAA189 - 9383f36f7d208d88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horoscopes.Horoscope, NetworkHelper.AppError&gt;) -&gt; () in Horoscopes.DetailedVC.getHoroscope() -&gt; ()"
+                  moduleName = "Horoscopes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christianhurtado/Documents/Unit%204/Horoscopes/Horoscopes/DetailedVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1139">
+               </Location>
+               <Location
+                  uuid = "90CC59CD-DCB8-499D-9D9E-B25E8CBAA189 - 2129f137c3ea6927"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;Horoscopes.Horoscope, NetworkHelper.AppError&gt;) -&gt; () in Horoscopes.DetailedVC.getHoroscope() -&gt; ()"
+                  moduleName = "Horoscopes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christianhurtado/Documents/Unit%204/Horoscopes/Horoscopes/DetailedVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "110">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "258C7C57-3CEB-4215-A17A-1EFF89C8B263"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Horoscopes/DetailedVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getHoroscope()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
