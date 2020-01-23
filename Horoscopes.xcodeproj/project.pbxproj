@@ -17,6 +17,7 @@
 		1346E8E323D0D4DE003F654B /* DetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1346E8E223D0D4DE003F654B /* DetailedVC.swift */; };
 		13DFFDA123DA325B000CF20F /* Horoscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DFFDA023DA325B000CF20F /* Horoscope.swift */; };
 		13DFFDA323DA3347000CF20F /* HoroscopeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DFFDA223DA3347000CF20F /* HoroscopeAPI.swift */; };
+		13DFFDA523DA5028000CF20F /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DFFDA423DA5028000CF20F /* UserPreference.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		1346E8E223D0D4DE003F654B /* DetailedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedVC.swift; sourceTree = "<group>"; };
 		13DFFDA023DA325B000CF20F /* Horoscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscope.swift; sourceTree = "<group>"; };
 		13DFFDA223DA3347000CF20F /* HoroscopeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeAPI.swift; sourceTree = "<group>"; };
+		13DFFDA423DA5028000CF20F /* UserPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreference.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				1346E8CD23D0CDE5003F654B /* SceneDelegate.swift */,
 				13DFFDA023DA325B000CF20F /* Horoscope.swift */,
 				13DFFDA223DA3347000CF20F /* HoroscopeAPI.swift */,
+				13DFFDA423DA5028000CF20F /* UserPreference.swift */,
 				1346E8CF23D0CDE5003F654B /* BeginningVC.swift */,
 				1346E8E223D0D4DE003F654B /* DetailedVC.swift */,
 				1346E8D123D0CDE5003F654B /* Main.storyboard */,
@@ -159,6 +162,7 @@
 				1346E8D023D0CDE5003F654B /* BeginningVC.swift in Sources */,
 				1346E8CC23D0CDE5003F654B /* AppDelegate.swift in Sources */,
 				13DFFDA123DA325B000CF20F /* Horoscope.swift in Sources */,
+				13DFFDA523DA5028000CF20F /* UserPreference.swift in Sources */,
 				1346E8CE23D0CDE5003F654B /* SceneDelegate.swift in Sources */,
 				13DFFDA323DA3347000CF20F /* HoroscopeAPI.swift in Sources */,
 			);

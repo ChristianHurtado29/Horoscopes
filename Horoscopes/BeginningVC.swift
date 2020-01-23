@@ -65,7 +65,8 @@ extension BeginningVC: UIPickerViewDataSource {
         print(signs[row])
         picked = signs[row]
         print(picked)
-        UserDefaults.standard.set(signs[row], forKey: picked)
+     //   UserDefaults.standard.set(signs[row], forKey: picked)
+        UserPreference.shared.updateSign(with: signs[row])
     }
     
 }
@@ -84,6 +85,7 @@ extension BeginningVC: UITextFieldDelegate{
         textFieldInput.resignFirstResponder()
         UserDefaults.standard.set(textField.text, forKey: name)
         nextButton.isHidden = false
+        UserPreference.shared.updateName(with: textField.text ?? "no name")
         return true
     }
 }

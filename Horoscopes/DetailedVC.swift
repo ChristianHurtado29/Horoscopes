@@ -39,7 +39,7 @@ class DetailedVC: UIViewController {
     }
     
     func getHoroscope(){
-        HoroscopeAPI.getHoroscope(for: (picked?.lowercased())!) { [weak self] (result) in
+        HoroscopeAPI.getHoroscope(for: (picked?.lowercased()) ?? "aries") { [weak self] (result) in
             switch result {
             case .failure(let appError):
                 print(appError)
