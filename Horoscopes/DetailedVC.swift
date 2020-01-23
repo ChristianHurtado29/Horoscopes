@@ -26,6 +26,15 @@ class DetailedVC: UIViewController {
         super.viewDidLoad()
         navigationItem.title = "\(selectedName ?? "No name")'s profile!"
         signLabel.text = picked
+        signLabel.backgroundColor = .white
+        signLabel.alpha = 0.75
+        textSpace.alpha = 0.7
+        moodLabel.backgroundColor = .white
+        moodLabel.alpha = 0.8
+        keywordsLabel.backgroundColor = .white
+        keywordsLabel.alpha = 0.7
+        intensityLabel.backgroundColor = .white
+        intensityLabel.alpha = 0.6
         getHoroscope()
     }
     
@@ -38,9 +47,10 @@ class DetailedVC: UIViewController {
                 self?.horoscope = horoscope
                 DispatchQueue.main.async {
                     self?.textSpace.text = horoscope.horoscope
-                    self?.moodLabel.text = horoscope.meta.mood
-                    self?.keywordsLabel.text = horoscope.meta.keywords
-                    self?.intensityLabel.text = horoscope.meta.intensity
+                    self?.moodLabel.text = "Mood: \(horoscope.meta.mood)"
+                    self?.keywordsLabel.text = "Keywords: \(horoscope.meta.keywords)"
+                    self?.intensityLabel.text = "Intensity: \(horoscope.meta.intensity)"
+                    self?.backgroundImageView.image = UIImage(named: self!.picked!)
                 }
             }
         }
